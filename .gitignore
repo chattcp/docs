@@ -16,3 +16,7 @@ _book
 *.epub
 *.mobi
 *.pdf
+
+.vitepress/dist
+.vitepress/cache
+
