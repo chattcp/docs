@@ -3,7 +3,7 @@
 您已经下载ChatTCP了吗？如果还没下载，可以点击此链接去下载：[chattcp.com](https://chattcp.com)
 
 在开始之前，我们需要先准备一个pcap（或pcapng）文件，也就是抓包文件。
-如果您还不知道怎么抓包，可以先看这个文档：[How to capture tcp packets](/how-to-capture-tcp-packets)
+如果您还不知道怎么抓包，可以先看这个文档：[如何抓包](/zh/how-to-capture-tcp-packets)
 
 > PS：您看到的所有图片都是英文版的截图，ChatTCP支持中文，当您的系统使用中文时，ChatTCP就会使用中文。
 
@@ -11,21 +11,21 @@
 
 打开ChatTCP，点击“点击选择一个文件开始”，选择一个pcap文件打开。
 
-![Click to select file](images/quick-start/click-to-select-file.png)
+![Click to select file](/images/quick-start/click-to-select-file.png)
 
-> PS: 如果您目前是在学习，并且还未抓取数据包，可以查看ChatTCP提供的一些经典案例，您可阅读此文档：[Classic case](/classic-case)
+> PS: 如果您目前是在学习，并且还未抓取数据包，可以查看ChatTCP提供的一些经典案例，您可阅读此文档：[经典案例](/zh/classic-case)
 
 ## 分析窗口介绍
 
 当我们选择一个文件打开后，会打开一个分析窗口。该窗口分为左、中、右三个工作区。
 
-![Analysis window](images/quick-start/analysis-window.png)
+![Analysis window](/images/quick-start/analysis-window.png)
 
 ### 左侧工作区
 
 该区域显示分析统计、以及分析出的所有TCP连接。
 
-![Filter stream](images/quick-start/analysis-left-workspace.png)
+![Filter stream](/images/quick-start/analysis-left-workspace.png)
 
 * 分析统计：统计该文件分析的结果，一共有多少个连接、有多少个未完成三次握手的连接、有多少个出现重传数据包的连接等。
 * TCP连接列表：列出了所有TCP连接，支持模糊搜索过滤连接。

@@ -6,6 +6,6 @@
 
 当然，由于序列号的开始值是随机的，通常这个值很大，不利于我们分析。因此ChatTCP也提供显示相对序列号的支持，如果有需要，我们可以打开这个配置。
 
-![Setting use relative sequence number](/images/relative-sequence-neumber.png)
+![Setting use relative sequence number](/images/relative-sequence-neumber/setting.png)
 
 需要注意，配置更改后，重新打开文件或者重启ChatTCP配置才会生效。

@@ -1,5 +1,8 @@
 import {defineConfig} from 'vitepress'
 
+import {sidebar} from "./src/sidebars/en";
+import {zhSidebar} from "./src/sidebars/zh"
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     title: "ChatTCP docs",
@@ -30,11 +33,17 @@ export default defineConfig({
     locales: {
         root: {
             label: 'English',
-            lang: 'en'
+            lang: 'en',
+            themeConfig: {
+                sidebar: sidebar
+            }
         },
         zh: {
             label: '简体中文',
             lang: 'zh', // 可选，将作为 `lang` 属性添加到 `html` 标签中
+            themeConfig: {
+                sidebar: zhSidebar
+            }
         }
     },
     themeConfig: {
@@ -42,52 +51,6 @@ export default defineConfig({
         logo: "/logo.png",
         nav: [
             {text: 'Download', link: 'https://chattcp.com'}
-        ],
-        sidebar: [
-            {
-                text: 'Home',
-                link: '/'
-            },
-            {
-                text: 'About ChatTCP',
-                link: '/about-chattcp'
-            },
-            {
-                text: 'Quick Start',
-                link: "/quick-start"
-            },
-            {
-                text: 'How to capture tcp packets',
-                link: '/how-to-capture-tcp-packets'
-            },
-            {
-                text: 'Classic case',
-                link: '/classic-case'
-            },
-            {
-                text: 'Search packets',
-                link: '/search-package'
-            },
-            {
-                text: 'Decode application layer protocols',
-                link: '/decode-application-layer-protocols'
-            },
-            {
-                text: 'Extract http protocol files',
-                link: '/extract-http-protocol-files'
-            },
-            {
-                text: 'Relative Sequence Number',
-                link: '/relative-sequence-number'
-            },
-            {
-                text: 'Understanding packet retransmission and out of order',
-                link: '/tcp-packet-retransmission-and-out-of-order'
-            },
-            {
-                text: 'Understand the connection status of the TCP protocol',
-                link: '/understand-the-connection-status-of-the-tcp-protocol'
-            }
         ],
         socialLinks: [
             {icon: 'github', link: 'https://github.com/chattcp/docs'}

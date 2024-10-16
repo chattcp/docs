@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Docs
-      link: /about-chattcp
+      link: /zh/about-chattcp
     - theme: alt
       text: Download
       link: https://chattcp.com
