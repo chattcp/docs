@@ -13,7 +13,7 @@
 
 ![Click to select file](/images/quick-start/click-to-select-file.png)
 
-> PS: 如果您目前是在学习，并且还未抓取数据包，可以查看ChatTCP提供的一些经典案例，您可阅读此文档：[经典案例](/zh/classic-case)
+如果您目前是在学习，并且还未抓取数据包，可以查看ChatTCP提供的一些经典案例，您可阅读此文档：[经典案例](/zh/classic-case)
 
 ## 分析窗口介绍
 
