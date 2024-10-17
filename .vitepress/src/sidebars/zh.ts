@@ -16,7 +16,7 @@ export const zhSidebar = [
         link: '/zh/how-to-capture-tcp-packets'
     },
     {
-        text: '经典案例',
+        text: 'TCP抓包分析经典案例',
         link: '/zh/classic-case'
     },
     {

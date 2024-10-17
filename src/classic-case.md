@@ -1,4 +1,4 @@
-# Classic Cases
+# Classic case of TCP packet capture analysis
 
 ChatTCP provides users with some classic learning cases for the TCP protocol, such as the three-way handshake and four-way handshake of the TCP protocol, allowing users to learn and master the TCP protocol without needing to capture packets themselves. It is very suitable for beginners.
 

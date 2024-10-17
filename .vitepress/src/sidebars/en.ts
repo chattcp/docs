@@ -16,7 +16,7 @@ export const sidebar = [
         link: '/how-to-capture-tcp-packets'
     },
     {
-        text: 'Classic case',
+        text: 'Classic case of TCP packet capture analysis',
         link: '/classic-case'
     },
     {
