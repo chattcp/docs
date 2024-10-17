@@ -1,2 +1,70 @@
-# Get Started
+# Quick Start
 
+Have you downloaded ChatTCP? If not, you can click this link to download it: [chattcp.com](https://chattcp.com)
+
+Before we start, we need to prepare a pcap (or pcapng) file, which is a packet capture file. If you are not sure how to capture packets, you can refer to this document: [How to Capture TCP Packets](/how-to-capture-tcp-packets)
+
+> PS: All the images you see are screenshots from the English version. ChatTCP supports Chinese, and when your system is set to Chinese, ChatTCP will use Chinese.
+
+## Select a File to Open
+
+Open ChatTCP, click "Click to select a file to start," and choose a pcap file to open.
+
+![Click to select file](/images/quick-start/click-to-select-file.png)
+
+> PS: If you are currently learning and have not captured any packets yet, you can check out some classic cases provided by ChatTCP. You can read this document: [Classic Cases](/classic-case)
+
+## Introduction to the Analysis Window
+
+After selecting a file to open, an analysis window will appear. This window is divided into three work areas: left, middle, and right.
+
+![Analysis window](/images/quick-start/analysis-window.png)
+
+### Left Workspace
+
+This area displays analysis statistics and all TCP connections identified.
+
+![Filter stream](/images/quick-start/analysis-left-workspace.png)
+
+* Analysis Statistics: Statistics of the analysis results for the file, including the total number of connections, how many connections have incomplete three-way handshakes, and how many connections have retransmitted packets, etc.
+* TCP Connection List: Lists all TCP connections and supports fuzzy search to filter connections.
+
+### Middle Workspace
+
+This area displays all round-trip packets of a TCP connection in a chat-like format, showing the packets in the order they were sent. Each Chat represents a TCP packet.
+
+When we select a connection in the left workspace, this area will update to display the "chat history" for that connection.
+
+![Chat window](/images/quick-start/analysis-main-workspace.png)
+
+A Chat includes: sender IP:PORT, the state of the connection after the packet is sent, packet sending time, seq, ack, flags, Payload (if any), and description.
+
+![One chat](/images/quick-start/chat-struct.png)
+
+If you forget what the flags mean, you can hover over the flags to see a tooltip.
+
+![Flag tips](/images/quick-start/chat-tcp-flag-tips.png)
+
+If you don't understand how to interpret this TCP packet, you can enable "Turn on commentary," and ChatTCP will show you how to understand the packet.
+
+![Commentary](/images/quick-start/chat-commentary.png)
+
+If you want to understand the entire TCP packet, you can click the "Show" button, which will pop up a view at the bottom to display the details of the packet.
+
+![TCP Structure](/images/quick-start/tcp-structure.png)
+
+By default, the packet will be mapped to the TCP data structure for display, and it also supports hexadecimal view mode.
+
+![TCP Structure Hex](/images/quick-start/tcp-structure-hex.png)
+
+When we click outside the pop-up view, the pop-up will disappear.
+
+ChatTCP will automatically recognize the application layer protocol used by the packet's Payload and decode it. If the decoding is successful, the Chat will display the data structure of the application layer protocol and support switching to Raw.
+
+![Chat payload decode as websocket](/images/quick-start/chat-payload-websocket.png)
+
+### Right Workspace
+
+This area displays diagnostic analysis of the currently selected connection, such as network latency and retransmission conditions.
+
+![Diagnostic analysis](/images/quick-start/analysis-right-workspace.png)
