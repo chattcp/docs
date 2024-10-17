@@ -4,8 +4,6 @@ Have you downloaded ChatTCP? If not, you can click this link to download it: [ch
 
 Before we start, we need to prepare a pcap (or pcapng) file, which is a packet capture file. If you are not sure how to capture packets, you can refer to this document: [How to Capture TCP Packets](/how-to-capture-tcp-packets)
 
-> PS: All the images you see are screenshots from the English version. ChatTCP supports Chinese, and when your system is set to Chinese, ChatTCP will use Chinese.
-
 ## Select a File to Open
 
 Open ChatTCP, click "Click to select a file to start," and choose a pcap file to open.
