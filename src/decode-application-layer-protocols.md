@@ -1,6 +1,6 @@
 # Decoding Application Layer Protocols
 
-The application layer is the seventh layer of the ISO model, with commonly used application layer protocols based on TCP such as HTTP and WebSocket.
+The application layer is the seventh layer of the OSI model, with commonly used application layer protocols based on TCP such as HTTP and WebSocket.
 
 ChatTCP automatically recognizes the application layer protocol used by the connection and decodes the Payload of each packet using the corresponding application layer protocol, mapping it to the protocol's data structure for intuitive and efficient analysis.
 
