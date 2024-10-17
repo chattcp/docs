@@ -12,7 +12,7 @@ export const zhSidebar = [
         link: "/zh/tcp-analysis-using-chattcp"
     },
     {
-        text: '如何抓包',
+        text: '使用ChatTCP生成tcpdump命令',
         link: '/zh/generate-tcpdump-command-using-chattcp'
     },
     {
