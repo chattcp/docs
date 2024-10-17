@@ -42,5 +42,9 @@ export const sidebar = [
     {
         text: 'Understand the connection status of the TCP protocol',
         link: '/understand-the-connection-status-of-the-tcp-protocol'
+    },
+    {
+        text: 'What is the relationship between ChatTCP and Easy TCP Analysis?',
+        link: '/what-is-the-relationship-between-chattcp-and-easy-tcp-analysis'
     }
 ]

@@ -42,5 +42,9 @@ export const zhSidebar = [
     {
         text: '理解TCP协议连接状态',
         link: '/zh/understand-the-connection-status-of-the-tcp-protocol'
+    },
+    {
+        text: 'ChatTCP与Easy TCP Analysis是什么关系？',
+        link: '/zh/what-is-the-relationship-between-chattcp-and-easy-tcp-analysis'
     }
 ]
