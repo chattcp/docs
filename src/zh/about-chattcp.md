@@ -12,7 +12,7 @@ ChatTCP降低了新手入门学习和掌握TCP分析的门槛，并提升了TCP�
 * 不理解ack和seq？
 * 记不清wireshark的过滤条件？
 * 看不懂或不理解TCP协议的连接状态？
-* 记不住websock等应用层协议的数据结构？
+* 记不住websocket等应用层协议的数据结构？
 * 不懂得怎么分析问题？
 * 记不住tcpdump命令？
 * 想提取http协议传输的文件？
