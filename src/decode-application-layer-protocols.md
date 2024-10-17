@@ -6,7 +6,7 @@ ChatTCP automatically recognizes the application layer protocol used by the conn
 
 ![Decode as websocket](/images/decode-application-layer-protocols/chat-payload-webscoket.png)
 
-Additionally, it can decode the Payload of all round-trip packets of the entire connection using the corresponding application layer protocol. ChatTCP resolves issues of packet sticking and fragmentation, similar to the Flow stream feature in Wireshark.
+Certainly, it is also supported to decode the Payload of all incoming and outgoing packets within the entire connection using the corresponding application layer protocol. ChatTCP will handle issues related to packet sticking and fragmentation. This corresponds to the Flow stream functionality in Wireshark.
 
 ![Flow stream](/images/decode-application-layer-protocols/flow-stream-decode-app-layer-protocol.png)
 

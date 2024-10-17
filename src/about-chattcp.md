@@ -2,7 +2,7 @@
 
 ChatTCP is an offline TCP packet analysis app designed to simplify TCP packet analysis, making it as easy as reading chat records.
 
-ChatTCP not only lowers the entry barrier for beginners to learn and master TCP packet analysis but also enhances the efficiency of troubleshooting packet analysis issues.
+ChatTCP lowers the barrier for beginners to learn and master TCP analysis, and enhances the efficiency of TCP analysis.
 
 If you are facing any of the following problems, ChatTCP is perfect for you:
 

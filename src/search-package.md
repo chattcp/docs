@@ -1,9 +1,9 @@
-# Advanced Search
+# Advanced Search Functionality of ChatTCP
 
 To simplify the analysis process, ChatTCP parses all connections in pcap (or pcapng) files, reassembling round-trip packets by connection to display them as chat records. Therefore, ChatTCP defaults to supporting filtering by connection and fuzzy search.
 
-However, in practical use, pcap files can be large, resulting in many parsed connections, or a single connection may have many round-trip packets. In such cases, it can be very difficult to find packets containing a specific character in the payload by searching through each connection one by one. 
+However, in practical use, pcap files can be very large, yielding numerous connections or a high number of round-trip packets within a single connection. In such cases, finding packets whose Payload contains a specific string by searching through each connection individually can be extremely difficult.
 
-To address this issue, ChatTCP provides an advanced search feature that supports global searches for packets based on TCP flags, Payload, and other criteria. Similarly, we do not need to remember how to write filtering expressions like in Wireshark.
+To address this issue, ChatTCP provides an advanced search function that supports global searching of packets based on conditions such as TCP flags and Payload. Similarly, there is no need to remember how to write filter expressions like in Wireshark.
 
 ![Advanced search](/images/search-package/advanced-search.png)

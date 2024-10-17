@@ -16,8 +16,8 @@ hero:
 features:
   - title: Automatic Diagnostic Analysis
     details: Automatically analyzes network latency, packet loss, and retransmission situations
-  - title: Layer 7 Protocol Decoding
-    details: Supports decoding of common Layer 7 protocols and maps them to data structure displays
+  - title: Application Layer Protocol Decoding
+    details: Supports decoding of common Application layer protocols and maps them to data structure displays
   - title: Provides Classic Cases
     details: Provides multiple classic cases for learning and mastering TCP protocols as well as application layer protocols
 ---

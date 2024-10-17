@@ -20,7 +20,7 @@ export const sidebar = [
         link: '/classic-case'
     },
     {
-        text: 'Search packets',
+        text: 'Advanced Search Functionality of ChatTCP',
         link: '/search-package'
     },
     {

@@ -20,7 +20,7 @@ export const zhSidebar = [
         link: '/zh/classic-case'
     },
     {
-        text: '高级搜索',
+        text: 'ChatTCP的高级搜索功能',
         link: '/zh/search-package'
     },
     {
