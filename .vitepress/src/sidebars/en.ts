@@ -8,8 +8,8 @@ export const sidebar = [
         link: '/about-chattcp'
     },
     {
-        text: 'Quick Start',
-        link: "/quick-start"
+        text: 'TCP Analysis using ChatTCP',
+        link: "/tcp-analysis-using-chattcp"
     },
     {
         text: 'How to capture tcp packets',

@@ -8,8 +8,8 @@ export const zhSidebar = [
         link: '/zh/about-chattcp'
     },
     {
-        text: '快速开始',
-        link: "/zh/quick-start"
+        text: '使用ChatTCP分析TCP数据包',
+        link: "/zh/tcp-analysis-using-chattcp"
     },
     {
         text: '如何抓包',
