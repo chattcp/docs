@@ -12,8 +12,8 @@ export const sidebar = [
         link: "/tcp-analysis-using-chattcp"
     },
     {
-        text: 'How to capture tcp packets',
-        link: '/how-to-capture-tcp-packets'
+        text: 'Generate tcpdump command using ChatTCP',
+        link: '/generate-tcpdump-command-using-chattcp'
     },
     {
         text: 'Classic case of TCP packet capture analysis',

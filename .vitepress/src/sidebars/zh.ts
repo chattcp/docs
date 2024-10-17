@@ -13,7 +13,7 @@ export const zhSidebar = [
     },
     {
         text: '如何抓包',
-        link: '/zh/how-to-capture-tcp-packets'
+        link: '/zh/generate-tcpdump-command-using-chattcp'
     },
     {
         text: 'TCP抓包分析经典案例',

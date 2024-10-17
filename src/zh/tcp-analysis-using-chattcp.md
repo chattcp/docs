@@ -3,7 +3,7 @@
 您已经下载ChatTCP了吗？如果还没下载，可以点击此链接去下载：[chattcp.com](https://chattcp.com)
 
 在开始之前，我们需要先准备一个pcap（或pcapng）文件，也就是抓包文件。
-如果您还不知道怎么抓包，可以先看这个文档：[如何抓包](/zh/how-to-capture-tcp-packets)
+如果您忘记tcpdump命令如何写，ChatTCP提供了一个小工具：[使用ChatTCP生成tcpdump命令](/zh/generate-tcpdump-command-using-chattcp)
 
 > PS：您看到的所有图片都是英文版的截图，ChatTCP支持中文，当您的系统使用中文时，ChatTCP就会使用中文。
 

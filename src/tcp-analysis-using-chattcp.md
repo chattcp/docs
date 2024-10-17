@@ -2,7 +2,7 @@
 
 Have you downloaded ChatTCP? If not, you can click this link to download it: [chattcp.com](https://chattcp.com)
 
-Before we start, we need to prepare a pcap (or pcapng) file, which is a packet capture file. If you are not sure how to capture packets, you can refer to this document: [How to Capture TCP Packets](/how-to-capture-tcp-packets)
+Before we start, we need to prepare a pcap (or pcapng) file, which is a packet capture file. If you forget how to write the tcpdump command, ChatTCP provides a small utility: [Generate tcpdump command using ChatTCP](/generate-tcpdump-command-using-chattcp)
 
 ## Select a File to Open
 
