@@ -13,3 +13,5 @@ Currently available cases include:
 * Case of the four packets in the TCP protocol's four-way handshake.
 * An HTTP protocol client request where an extra '\n' in a request header value causes the server to fail to process the request properly.
 * Analyzing TCP packet captures to solve the issue of the HTTP event stream being stuck until the last message is returned all at once.
+* WebSocket Protocol Learning Case
+* HTTP Image Download Case
