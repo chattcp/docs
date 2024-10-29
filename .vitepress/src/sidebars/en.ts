@@ -46,5 +46,14 @@ export const sidebar = [
     {
         text: 'What is the relationship between ChatTCP and Easy TCP Analysis?',
         link: '/what-is-the-relationship-between-chattcp-and-easy-tcp-analysis'
+    },
+    {
+        text: "Blog",
+        items: [
+            {
+                text: "How I Came Up with the Idea to Develop ChatTCP, a TCP Analysis Tool APP",
+                link: 'https://medium.com/@wujiuye99/if-you-find-wireshark-challenging-then-give-chattcp-a-try-042f5755a7e4'
+            }
+        ]
     }
 ]
