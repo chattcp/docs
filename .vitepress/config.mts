@@ -53,7 +53,8 @@ export default defineConfig({
             {text: 'Download', link: 'https://chattcp.com'}
         ],
         socialLinks: [
-            {icon: 'github', link: 'https://github.com/chattcp/docs'}
+            {icon: 'github', link: 'https://github.com/chattcp/docs'},
+            {icon: 'twitter', link: 'https://x.com/ChatTCP'}
         ]
     }
 })
