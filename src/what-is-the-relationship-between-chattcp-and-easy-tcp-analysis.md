@@ -1,7 +1,11 @@
 # What is the relationship between ChatTCP and Easy TCP Analysis?
 
-ChatTCP is an offline version of Easy TCP Analysis, but due to differences in positioning, the offline version was renamed ChatTCP.
+ChatTCP is the offline version of Easy TCP Analysis, renamed accordingly.
 
-ChatTCP inherits the core functionalities of Easy TCP Analysis, including presenting TCP data packets in a chat session format, providing data packet explanation features, and supporting diagnostic analysis for common issues. Additionally, ChatTCP has been optimized for offline environments and includes some new functional characteristics, such as supporting more complex search requirements and decoding application layer protocols. Since the offline version does not connect to the internet, features exclusive to the online version, such as sharing cases and files, have been removed.
+ChatTCP inherits the core features of Easy TCP Analysis. Additionally, ChatTCP has been optimized for offline environments and includes several new features, such as support for more complex search requirements and application-layer protocol decoding.
 
-ChatTCP is suitable for any scenario, whether it's for beginner-level learning and analysis of TCP or for using TCP analysis to solve practical problems in the workplace. With the offline version, there's no need to worry about data leakage issues. On the other hand, Easy TCP Analysis is only suitable for scenarios where privacy data leakage is not a concern, the situation is simple, and the additional features provided by ChatTCP are not needed.
+ChatTCP is suitable for any scenario, whether it's for learning and mastering the TCP protocol or for troubleshooting issues at work. With the offline version, there are no concerns about data leakage.
+
+On October 30, 2024, Easy TCP Analysis underwent a revision and was merged into ChatTCP, providing ChatTCP with basic online experience functionality. The original domain name is no longer in use.
+
+> The original domain name https://www.easy-tcp-analysis.tools has been replaced with https://online.chattcp.com.
