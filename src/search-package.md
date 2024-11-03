@@ -1,4 +1,4 @@
-# Advanced Search Functionality of ChatTCP
+# Advanced Search
 
 To simplify the analysis process, ChatTCP parses all connections in pcap (or pcapng) files, reassembling round-trip packets by connection to display them as chat records. Therefore, ChatTCP defaults to supporting filtering by connection and fuzzy search.
 

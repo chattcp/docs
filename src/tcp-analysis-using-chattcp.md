@@ -35,7 +35,7 @@ When we select a connection in the left workspace, this area will update to disp
 
 ![Chat window](/images/tcp-analysis-using-chattcp/analysis-main-workspace.png)
 
-A Chat includes: sender IP:PORT, the state of the connection after the packet is sent, packet sending time, seq, ack, flags, Payload (if any), and description.
+A Chat includes: sender IP:PORT, the state of the connection after the packet is sent, packet sending time, seq, ack, flags, Payload (if any), and note.
 
 ![One chat](/images/tcp-analysis-using-chattcp/chat-struct.png)
 
@@ -43,11 +43,11 @@ If you forget what the flags mean, you can hover over the flags to see a tooltip
 
 ![Flag tips](/images/tcp-analysis-using-chattcp/chat-tcp-flag-tips.png)
 
-If you don't understand how to interpret this TCP packet, you can enable "Turn on commentary," and ChatTCP will show you how to understand the packet.
+If you don't understand how to interpret this TCP packet, you can enable "Commentary," and ChatTCP will show you how to understand the packet.
 
 ![Commentary](/images/tcp-analysis-using-chattcp/chat-commentary.png)
 
-If you want to understand the entire TCP packet, you can click the "Show" button, which will pop up a view at the bottom to display the details of the packet.
+If you want to understand the entire TCP packet, you can click the "i" button, which will pop up a view at the bottom to display the details of the packet.
 
 ![TCP Structure](/images/tcp-analysis-using-chattcp/tcp-structure.png)
 
@@ -57,7 +57,7 @@ By default, the packet will be mapped to the TCP data structure for display, and
 
 When we click outside the pop-up view, the pop-up will disappear.
 
-ChatTCP will automatically recognize the application layer protocol used by the packet's Payload and decode it. If the decoding is successful, the Chat will display the data structure of the application layer protocol and support switching to Raw.
+ChatTCP will automatically recognize the application layer protocol used by the packet's Payload and decode it. If the decoding is successful, the Chat will display the data structure of the application layer protocol.
 
 ![Chat payload decode as websocket](/images/tcp-analysis-using-chattcp/chat-payload-websocket.png)
 

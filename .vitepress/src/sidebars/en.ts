@@ -16,11 +16,15 @@ export const sidebar = [
         link: '/generate-tcpdump-command-using-chattcp'
     },
     {
+        text: "ChatTCP Personalization Configuration",
+        link: '/about-settings.md'
+    },
+    {
         text: 'Classic case of TCP packet capture analysis',
         link: '/classic-case'
     },
     {
-        text: 'Advanced Search Functionality of ChatTCP',
+        text: 'Advanced Search',
         link: '/search-package'
     },
     {
