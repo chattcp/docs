@@ -16,6 +16,10 @@ export const zhSidebar = [
         link: '/zh/generate-tcpdump-command-using-chattcp'
     },
     {
+        text: "ChatTCP个性化配置",
+        link: '/zh/about-settings.md'
+    },
+    {
         text: 'TCP抓包分析经典案例',
         link: '/zh/classic-case'
     },

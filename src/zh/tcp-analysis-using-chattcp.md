@@ -38,7 +38,7 @@
 
 ![Chat window](/images/tcp-analysis-using-chattcp/analysis-main-workspace.png)
 
-一个Chat包括：发送者IP:PORT、该数据包发送之后连接所处状态、数据包发送时间、seq、ack、标志位、Payload（如有）、说明。
+一个Chat包括：发送者IP:PORT、该数据包发送之后连接所处状态、数据包发送时间、seq、ack、标志位、Payload（如有）、备注。
 
 ![One chat](/images/tcp-analysis-using-chattcp/chat-struct.png)
 
@@ -46,11 +46,11 @@
 
 ![Flag tips](/images/tcp-analysis-using-chattcp/chat-tcp-flag-tips.png)
 
-如果你不懂怎么理解这个TCP数据包，可开启“Turn on commentary”，ChatTCP就会显示教你如何理解该数据包。
+如果你不懂怎么理解这个TCP数据包，可开启“Commentary”，ChatTCP就会显示教你如何理解该数据包。
 
 ![Commentary](/images/tcp-analysis-using-chattcp/chat-commentary.png)
 
-如果你想了解整个TCP数据包，我们可以点击“Show”按钮，此时就是在底部弹出一个视图来显示这个数据包的明细。
+如果你想了解整个TCP数据包，我们可以点击“i”按钮，此时就是在底部弹出一个视图来显示这个数据包的明细。
 
 ![TCP Structure](/images/tcp-analysis-using-chattcp/tcp-structure.png)
 
@@ -60,7 +60,7 @@
 
 当我们点击弹出视图之外的地方，弹出视图就会消失。
 
-ChatTCP会自动识别数据包Payload使用的应用层协议并解码，如果解码成功，那么Chat会以应用层协议数据结构显示，并支持切换到Raw。
+ChatTCP会自动识别数据包Payload使用的应用层协议并解码，如果解码成功，那么Chat会以应用层协议数据结构显示。
 
 ![Chat payload decode as websocket](/images/tcp-analysis-using-chattcp/chat-payload-websocket.png)
 
