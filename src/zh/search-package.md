@@ -7,3 +7,7 @@ ChatTCP为了简化分析过程，会解析出pcap（或pcapng）文件中所有
 为了解决这个问题，ChatTCP提供高级搜索功能，支持按TCP标志位、Payload等条件全局搜索数据包。同样的，我们也并不需要像Wireshark那样记过滤表达式怎么写。
 
 ![Advanced search](/images/search-package/advanced-search.png)
+
+ChatTCP搜索功能还支持根据应用层协议设置检索条件，例如当我们选择HTTP协议时，输入条件就变成http协议的数据结构的可检索字段。
+
+![Http protocol search](/images/search-package/http-search-condtion.png)
