@@ -8,7 +8,7 @@ Before we start, we need to prepare a pcap (or pcapng) file, which is a packet c
 
 Open ChatTCP, click "Click to select a file" and choose a pcap file to open.
 
-![Click to select file](/images/tcp-analysis-using-chattcp/click-to-select-file.png)
+![Click to select file](/images/tcp-analysis-using-chattcp/click-to-select-file.webp)
 
 If you are currently learning and have not captured any packets yet, you can check out some classic cases provided by ChatTCP. You can read this document: [Classic Cases](/classic-case)
 
@@ -16,13 +16,13 @@ If you are currently learning and have not captured any packets yet, you can che
 
 After selecting a file to open, an analysis window will appear. This window is divided into three work areas: left, middle, and right.
 
-![Analysis window](/images/tcp-analysis-using-chattcp/analysis-window.png)
+![Analysis window](/images/tcp-analysis-using-chattcp/analysis-window.webp)
 
 ### Left Workspace
 
 This area displays analysis statistics and all TCP connections identified.
 
-![Filter stream](/images/tcp-analysis-using-chattcp/analysis-left-workspace.png)
+![Filter stream](/images/tcp-analysis-using-chattcp/analysis-left-workspace.webp)
 
 * Analysis Statistics: Statistics of the analysis results for the file, including the total number of connections, how many connections have incomplete three-way handshakes, and how many connections have retransmitted packets, etc.
 * TCP Connection List: Lists all TCP connections and supports fuzzy search to filter connections.
@@ -33,36 +33,36 @@ This area displays all round-trip packets of a TCP connection in a chat-like for
 
 When we select a connection in the left workspace, this area will update to display the "chat history" for that connection.
 
-![Chat window](/images/tcp-analysis-using-chattcp/analysis-main-workspace.png)
+![Chat window](/images/tcp-analysis-using-chattcp/analysis-main-workspace.webp)
 
 A Chat includes: sender IP:PORT, the state of the connection after the packet is sent, packet sending time, seq, ack, flags, Payload (if any), and note.
 
-![One chat](/images/tcp-analysis-using-chattcp/chat-struct.png)
+![One chat](/images/tcp-analysis-using-chattcp/chat-struct.webp)
 
 If you forget what the flags mean, you can hover over the flags to see a tooltip.
 
-![Flag tips](/images/tcp-analysis-using-chattcp/chat-tcp-flag-tips.png)
+![Flag tips](/images/tcp-analysis-using-chattcp/chat-tcp-flag-tips.webp)
 
 If you don't understand how to interpret this TCP packet, you can enable "Commentary," and ChatTCP will show you how to understand the packet.
 
-![Commentary](/images/tcp-analysis-using-chattcp/chat-commentary.png)
+![Commentary](/images/tcp-analysis-using-chattcp/chat-commentary.webp)
 
 If you want to understand the entire TCP packet, you can click the "i" button, which will pop up a view at the bottom to display the details of the packet.
 
-![TCP Structure](/images/tcp-analysis-using-chattcp/tcp-structure.png)
+![TCP Structure](/images/tcp-analysis-using-chattcp/tcp-structure.webp)
 
 By default, the packet will be mapped to the TCP data structure for display, and it also supports hexadecimal view mode.
 
-![TCP Structure Hex](/images/tcp-analysis-using-chattcp/tcp-structure-hex.png)
+![TCP Structure Hex](/images/tcp-analysis-using-chattcp/tcp-structure-hex.webp)
 
 When we click outside the pop-up view, the pop-up will disappear.
 
 ChatTCP will automatically recognize the application layer protocol used by the packet's Payload and decode it. If the decoding is successful, the Chat will display the data structure of the application layer protocol.
 
-![Chat payload decode as websocket](/images/tcp-analysis-using-chattcp/chat-payload-websocket.png)
+![Chat payload decode as websocket](/images/tcp-analysis-using-chattcp/chat-payload-websocket.webp)
 
 ### Right Workspace
 
 This area displays diagnostic analysis of the currently selected connection, such as network latency and retransmission conditions.
 
-![Diagnostic analysis](/images/tcp-analysis-using-chattcp/analysis-right-workspace.png)
+![Diagnostic analysis](/images/tcp-analysis-using-chattcp/analysis-right-workspace.webp)

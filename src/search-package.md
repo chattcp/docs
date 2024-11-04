@@ -6,8 +6,8 @@ However, in practical use, pcap files can be very large, yielding numerous conne
 
 To address this issue, ChatTCP provides an advanced search function that supports global searching of packets based on conditions such as TCP flags and Payload. Similarly, there is no need to remember how to write filter expressions like in Wireshark.
 
-![Advanced search](/images/search-package/advanced-search.png)
+![Advanced search](/images/search-package/advanced-search.webp)
 
 The ChatTCP search function also supports setting search criteria based on application layer protocols. For instance, when we select the HTTP protocol, the input criteria transform into searchable fields within the data structure of the HTTP protocol.
 
-![Http protocol search](/images/search-package/http-search-condtion.png)
+![Http protocol search](/images/search-package/http-search-condtion.webp)

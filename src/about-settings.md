@@ -3,7 +3,7 @@
 ChatTCP extracts some personalized needs into independent configuration items, which you can modify according to your
 personal requirements.
 
-![ChatTCP setting](/images/about-settings/setting-page.png)
+![ChatTCP setting](/images/about-settings/setting-page.webp)
 
 ## Use relative sequence number
 
@@ -12,20 +12,20 @@ conform to human reading habits. Therefore, ChatTCP provides this configuration 
 of relative sequence numbers.
 
 Not using relative sequence numbers:
-![use real seq number](/images/about-settings/use-real-seq-number.png)
+![use real seq number](/images/about-settings/use-real-seq-number.webp)
 
 Using relative sequence numbers:
-![use relative seq number](/images/about-settings/use-relative-seq-number.png)
+![use relative seq number](/images/about-settings/use-relative-seq-number.webp)
 
 ## Show connection status
 
 You can configure whether to display the [TCP Connection Status](/understand-the-connection-status-of-the-tcp-protocol).
 
 Displaying TCP connection status:
-![show tcp conn status](/images/about-settings/show-conn-status.png)
+![show tcp conn status](/images/about-settings/show-conn-status.webp)
 
 Not displaying TCP connection status:
-![hidden tcp conn status](/images/about-settings/hidden-conn-status.png)
+![hidden tcp conn status](/images/about-settings/hidden-conn-status.webp)
 
 ## Chat note display enable
 
@@ -34,10 +34,10 @@ familiar with the TCP protocol. However, once you become proficient with the TCP
 redundant.
 
 Show notes:
-![chat note show enable](/images/about-settings/chat-note-show-enable.png)
+![chat note show enable](/images/about-settings/chat-note-show-enable.webp)
 
 Do not show notes:
-![chat note show disable](/images/about-settings/chat-note-show-disable.png)
+![chat note show disable](/images/about-settings/chat-note-show-disable.webp)
 
 ## Threshold for auto fold payload
 
@@ -46,7 +46,7 @@ and only displayed when clicked. The default threshold is 1024 bytes, and when t
 will be folded.
 
 When folded:
-![auto fold too long payload](/images/about-settings/auto-fold-too-long-payload.png)
+![auto fold too long payload](/images/about-settings/auto-fold-too-long-payload.webp)
 
 You can modify this threshold.
 
@@ -61,11 +61,11 @@ If supported, the decoded data will be mapped to the corresponding application l
 display.
 
 For example:
-![chat payload display style simple](/images/about-settings/chat-payload-display-style-structure.png)
+![chat payload display style simple](/images/about-settings/chat-payload-display-style-structure.webp)
 
 ### Simple Priority
 
 If supported, only the application layer protocol's Payload will be displayed.
 
 For example, the WebSocket protocol only displays the frame's Payload:
-![chat payload display style simple](/images/about-settings/chat-payload-display-style-simple.png)
+![chat payload display style simple](/images/about-settings/chat-payload-display-style-simple.webp)

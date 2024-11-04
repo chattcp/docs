@@ -6,6 +6,6 @@ This is because Wireshark displays relative sequence numbers, while ChatTCP defa
 
 However, since the starting value of the sequence number is random and usually quite large, it is not conducive to our analysis. Therefore, ChatTCP also provides support for displaying relative sequence numbers, which can be enabled if needed.
 
-![Setting use relative sequence number](/images/relative-sequence-neumber/setting.png)
+![Setting use relative sequence number](/images/relative-sequence-neumber/setting.webp)
 
 It is important to note that changes to the configuration will only take effect after reopening the file or restarting the ChatTCP application.

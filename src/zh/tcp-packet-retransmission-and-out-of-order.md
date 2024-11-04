@@ -6,9 +6,9 @@ TCP协议并没有提供一个单独的标志位来标识一个数据包是否�
 
 ChatTCP是怎么做到能够识别出重传数据包和Keep-Alive数据包的呢？
 
-![Wireshark TCP Retransmission - TCP Dup ACK - TCP Out-Of-Order](/images/tcp-packet-retransmission-and-out-of-order/wireshark-tcp-retransmission.png)
+![Wireshark TCP Retransmission - TCP Dup ACK - TCP Out-Of-Order](/images/tcp-packet-retransmission-and-out-of-order/wireshark-tcp-retransmission.webp)
 
-![Wireshark TCP Keep-Alive - TCP Keep-Alive ACK](/images/tcp-packet-retransmission-and-out-of-order/wireshark-keep-alive.png)
+![Wireshark TCP Keep-Alive - TCP Keep-Alive ACK](/images/tcp-packet-retransmission-and-out-of-order/wireshark-keep-alive.webp)
 
 ## 如何识别一个数据包是重传数据包？
 

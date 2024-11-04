@@ -4,9 +4,9 @@ The TCP protocol does not provide a separate flag to indicate whether a packet i
 
 How does ChatTCP manage to identify retransmitted packets and Keep-Alive packets?
 
-![Wireshark TCP Retransmission - TCP Dup ACK - TCP Out-Of-Order](/images/tcp-packet-retransmission-and-out-of-order/wireshark-tcp-retransmission.png)
+![Wireshark TCP Retransmission - TCP Dup ACK - TCP Out-Of-Order](/images/tcp-packet-retransmission-and-out-of-order/wireshark-tcp-retransmission.webp)
 
-![Wireshark TCP Keep-Alive - TCP Keep-Alive ACK](/images/tcp-packet-retransmission-and-out-of-order/wireshark-keep-alive.png)
+![Wireshark TCP Keep-Alive - TCP Keep-Alive ACK](/images/tcp-packet-retransmission-and-out-of-order/wireshark-keep-alive.webp)
 
 ## How to Identify a Packet as a Retransmitted Packet?
 

@@ -5,7 +5,7 @@ ChatTCP为用户提供了一些非常经典的TCP协议学习案例，例如TCP�
 
 > PS：您看到的所有图片都是英文版的截图，ChatTCP支持中文，当您的系统使用中文时，ChatTCP就会使用中文。
 
-![Classic case](/images/classic-case/classic-cases.png)
+![Classic case](/images/classic-case/classic-cases.webp)
 
 ## 当前提供的案例
 

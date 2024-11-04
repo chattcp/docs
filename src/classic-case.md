@@ -4,7 +4,7 @@ ChatTCP provides users with some classic learning cases for the TCP protocol, su
 
 In addition to the TCP protocol, ChatTCP will gradually provide cases for application layer protocols, such as the WebSocket protocol, to facilitate users' learning or review without needing to simulate scenarios and capture packets.
 
-![Classic case](/images/classic-case/classic-cases.png)
+![Classic case](/images/classic-case/classic-cases.webp)
 
 ## Currently available cases include
 
