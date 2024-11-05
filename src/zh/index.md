@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "ChatTCP 使用文档"
-  tagline: "致力于简化TCP数据包分析，让分析TCP数据包像看聊天记录一样简单。"
+  tagline: "致力于简化TCP分析，让TCP分析变得跟看聊天记录一样简单！"
   actions:
     - theme: brand
       text: Docs

@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "ChatTCP docs"
-  tagline: Dedicated to simplifying the analysis of TCP packets, making it as easy as reading chat logs!
+  tagline: Dedicated to simplifying the analysis of TCP, making it as easy as reading chat logs!
   actions:
     - theme: brand
       text: Docs

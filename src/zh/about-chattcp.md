@@ -1,6 +1,6 @@
 # 关于ChatTCP
 
-ChatTCP是一款离线TCP数据包分析APP，致力于简化TCP数据包分析，让分析TCP数据包像看聊天记录一样简单。
+ChatTCP是一款离线TCP分析APP，致力于简化TCP分析，让TCP分析变得跟看聊天记录一样简单！
 
 ChatTCP降低了新手入门学习和掌握TCP分析的门槛，并提升了TCP分析的效率。
 
