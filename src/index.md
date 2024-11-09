@@ -7,11 +7,16 @@ hero:
   tagline: Dedicated to simplifying the analysis of TCP, making it as easy as reading chat logs!
   actions:
     - theme: brand
-      text: Docs
+      text: Home
+      link: https://chattcp.com/en
+      target: _blank
+    - theme: alt
+      text: Guide
       link: /about-chattcp
     - theme: alt
       text: Download
-      link: https://chattcp.com
+      link: https://apps.apple.com/us/app/chattcp/id6560112653
+      target: _blank
 
 features:
   - title: Automatic Diagnostic Analysis

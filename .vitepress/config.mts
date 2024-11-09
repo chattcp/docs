@@ -35,6 +35,10 @@ export default defineConfig({
             label: 'English',
             lang: 'en',
             themeConfig: {
+                nav: [
+                    {text: 'Home', link: 'https://chattcp.com/en'},
+                    {text: 'Download', link: 'https://apps.apple.com/us/app/chattcp/id6560112653'}
+                ],
                 sidebar: sidebar
             }
         },
@@ -42,6 +46,10 @@ export default defineConfig({
             label: '简体中文',
             lang: 'zh', // 可选，将作为 `lang` 属性添加到 `html` 标签中
             themeConfig: {
+                nav: [
+                    {text: '官网', link: 'https://chattcp.com/zh'},
+                    {text: '下载', link: 'https://apps.apple.com/cn/app/chattcp/id6560112653'}
+                ],
                 sidebar: zhSidebar
             }
         }
@@ -49,9 +57,6 @@ export default defineConfig({
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         logo: "/logo.png",
-        nav: [
-            {text: 'Download', link: 'https://chattcp.com'}
-        ],
         socialLinks: [
             {icon: 'github', link: 'https://github.com/chattcp/docs'},
             {icon: 'twitter', link: 'https://x.com/ChatTCP'}

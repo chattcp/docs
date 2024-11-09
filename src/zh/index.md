@@ -7,11 +7,16 @@ hero:
   tagline: "致力于简化TCP分析，让TCP分析变得跟看聊天记录一样简单！"
   actions:
     - theme: brand
-      text: Docs
+      text: 官网
+      link: https://chattcp.com/zh
+      target: _blank
+    - theme: alt
+      text: 指南
       link: /zh/about-chattcp
     - theme: alt
-      text: Download
-      link: https://chattcp.com
+      text: 下载
+      link: https://apps.apple.com/cn/app/chattcp/id6560112653
+      target: _blank
 
 features:
   - title: 自动诊断分析
