@@ -16,5 +16,3 @@ Develop with
 npm run build 
 npm run preview
 ```
-
-Open http://localhost:4173 to see the result
