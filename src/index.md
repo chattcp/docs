@@ -24,6 +24,6 @@ features:
   - title: Application Layer Protocol Decoding
     details: Supports decoding of common Application layer protocols and maps them to data structure displays
   - title: Provides Classic Cases
-    details: Provides multiple classic cases for learning and mastering TCP protocols as well as application layer protocols
+    details: Provides multiple classic cases for learning and mastering TCP as well as application layer protocols
 ---
 

@@ -32,7 +32,7 @@ export const sidebar = [
         link: '/decode-application-layer-protocols'
     },
     {
-        text: 'Extract http protocol files',
+        text: 'Exporting Files Transmitted via HTTP',
         link: '/extract-http-protocol-files'
     },
     {
@@ -44,7 +44,7 @@ export const sidebar = [
         link: '/tcp-packet-retransmission-and-out-of-order'
     },
     {
-        text: 'Understand the connection status of the TCP protocol',
+        text: 'Understand the connection status of the TCP',
         link: '/understand-the-connection-status-of-the-tcp-protocol'
     },
     {

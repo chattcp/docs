@@ -1,6 +1,6 @@
 # Understanding TCP Retransmission and Out-of-Order
 
-The TCP protocol does not provide a separate flag to indicate whether a packet is a retransmitted packet or a Keep-Alive packet. However, we can see that Wireshark can identify retransmitted packets, usually providing prompts like `[TCP Retransmission]`, `[TCP Out-Of-Order]`, or `[TCP Dup ACK]`. It can also identify Keep-Alive packets and Keep-Alive acknowledgment packets, typically showing prompts like `[TCP Keep-Alive]` or `[TCP Keep-Alive ACK]`.
+The TCP does not provide a separate flag to indicate whether a packet is a retransmitted packet or a Keep-Alive packet. However, we can see that Wireshark can identify retransmitted packets, usually providing prompts like `[TCP Retransmission]`, `[TCP Out-Of-Order]`, or `[TCP Dup ACK]`. It can also identify Keep-Alive packets and Keep-Alive acknowledgment packets, typically showing prompts like `[TCP Keep-Alive]` or `[TCP Keep-Alive ACK]`.
 
 How does ChatTCP manage to identify retransmitted packets and Keep-Alive packets?
 
@@ -14,7 +14,7 @@ If a packet has appeared before, then this packet is a duplicate packet, which m
 
 What constitutes a duplicate TCP packet? If it has the same sequence number (seq), acknowledgment number (ack), the same Payload, and the same flags, then it can be considered a retransmitted packet.
 
-Why is time not considered? Because the TCP protocol does not account for time!
+Why is time not considered? Because the TCP does not account for time!
 
 Additionally:
 * If the SYN flag is present, then this is a retransmitted handshake packet.

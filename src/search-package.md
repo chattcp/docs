@@ -8,6 +8,6 @@ To address this issue, ChatTCP provides an advanced search function that support
 
 ![Advanced search](/images/search-package/advanced-search.webp)
 
-The ChatTCP search function also supports setting search criteria based on application layer protocols. For instance, when we select the HTTP protocol, the input criteria transform into searchable fields within the data structure of the HTTP protocol.
+The ChatTCP search function also supports setting search criteria based on application layer protocols. For instance, when we select the HTTP, the input criteria transform into searchable fields within the data structure of the HTTP.
 
 ![Http protocol search](/images/search-package/http-search-condtion.webp)

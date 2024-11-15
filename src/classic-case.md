@@ -1,16 +1,16 @@
 # Classic case of TCP packet capture analysis
 
-ChatTCP provides users with some classic learning cases for the TCP protocol, such as the three-way handshake and four-way handshake of the TCP protocol, allowing users to learn and master the TCP protocol without needing to capture packets themselves. It is very suitable for beginners.
+ChatTCP provides users with some classic learning cases for the TCP, such as the three-way handshake and four-way handshake of the TCP, allowing users to learn and master the TCP without needing to capture packets themselves. It is very suitable for beginners.
 
-In addition to the TCP protocol, ChatTCP will gradually provide cases for application layer protocols, such as the WebSocket protocol, to facilitate users' learning or review without needing to simulate scenarios and capture packets.
+In addition to the TCP, ChatTCP will gradually provide cases for application layer protocols, such as the WebSocket protocol, to facilitate users' learning or review without needing to simulate scenarios and capture packets.
 
 ![Classic case](/images/classic-case/classic-cases.webp)
 
 ## Currently available cases include
 
-### The three-way handshake and four-way handshake cases of the TCP protocol, where the second and third packets of the four-way handshake are the same packet.
+### The three-way handshake and four-way handshake cases of the TCP, where the second and third packets of the four-way handshake are the same packet.
 
-This case includes only TCP protocol three-way handshake and four-way wave packets, which is very suitable for beginners to learn and understand the TCP protocol.
+This case includes only TCP three-way handshake and four-way wave packets, which is very suitable for beginners to learn and understand the TCP.
 
 In the four-way wave, the second wave and the third wave are the same packet.
 
@@ -28,7 +28,7 @@ In this case, the Keep-Alive interval is 15 seconds. This is a packet capture fr
 
 ### What happens if the server does not receive the third handshake of the three-way handshake?
 
-This case is suitable for understanding why TCP protocol needs three-way handshake and is also a very typical trouble shooting case.
+This case is suitable for understanding why TCP needs three-way handshake and is also a very typical trouble shooting case.
 
 In this case, since the server did not receive the client's third handshake packet, the connection was not actually established successfully. Judging from this case, it should be packet loss on the server side.
 
@@ -44,15 +44,15 @@ The keep-alive is initiated by the server, which is a Go process, with a default
 
 The four-way wave corresponds to four packets, with the server initiating the connection closure (first wave). The client's second wave is an ACK reply to the server's first wave, and the third is the client sending a FIN to the server, indicating that it is also ready to close the connection. In this case, the client did not combine the second and third into one packet.
 
-### An HTTP protocol client request where an extra '\n' in a request header value causes the server to fail to process the request properly.
+### An HTTP client request where an extra '\n' in a request header value causes the server to fail to process the request properly.
 
-The value of a certain request header transmitted by the client included a '\n', which caused the server framework to fail in parsing the request correctly. This is because, according to the HTTP protocol, when parsing the request, any content following this '\n' is treated as the request body. However, the Content-Length did not match the length of the body, resulting in an erroneous request. Consequently, the server framework actively disconnected the connection.
+The value of a certain request header transmitted by the client included a '\n', which caused the server framework to fail in parsing the request correctly. This is because, according to the HTTP, when parsing the request, any content following this '\n' is treated as the request body. However, the Content-Length did not match the length of the body, resulting in an erroneous request. Consequently, the server framework actively disconnected the connection.
 
 ### Analyzing TCP packet captures to solve the issue of the HTTP event stream being stuck until the last message is returned all at once.
 
 HTTP Event Stream is used to achieve a typewriter-like effect similar to that of GPT.
 
-In this case, although it uses the HTTP protocol, capturing packets with Charles may not reveal that the event stream is indeed returned in multiple data packets; instead, it may only show the final, complete HTTP response.
+In this case, although it uses the HTTP, capturing packets with Charles may not reveal that the event stream is indeed returned in multiple data packets; instead, it may only show the final, complete HTTP response.
 
 Through TCP packet capture and analysis, it was found that each event is responded to in a separate TCP packet. However, from the frontend perspective, there was a significant delay before the content was displayed all at once, failing to achieve the typing effect.
 
@@ -62,7 +62,7 @@ If compression is enabled, the entire body must be received before it can be dec
 
 ### WebSocket Protocol Learning Case
 
-An HTTP request-response example for downloading an image file, intended to demonstrate the features of (Exporting files transmitted via the HTTP protocol).
+An HTTP request-response example for downloading an image file, intended to demonstrate the features of (Exporting files transmitted via the HTTP).
 
 ### HTTP Image Download Case
 

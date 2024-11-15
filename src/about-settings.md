@@ -30,7 +30,7 @@ Not displaying TCP connection status:
 ## Chat note display enable
 
 Displaying Notes can help you understand data packets. This feature is particularly useful when you are not very
-familiar with the TCP protocol. However, once you become proficient with the TCP protocol, this feature may seem
+familiar with the TCP. However, once you become proficient with the TCP, this feature may seem
 redundant.
 
 Show notes:

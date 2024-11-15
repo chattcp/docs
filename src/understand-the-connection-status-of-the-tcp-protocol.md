@@ -1,8 +1,8 @@
-# Understanding the Connection Status of the TCP Protocol
+# Understanding the Connection Status of the TCP
 
-In our work, we may encounter issues related to connection status, such as a full half-connection queue. So, what does a full half-connection queue mean, and how do we understand the half-connection status in the TCP protocol?
+In our work, we may encounter issues related to connection status, such as a full half-connection queue. So, what does a full half-connection queue mean, and how do we understand the half-connection status in the TCP?
 
-First, let's understand the various connection states in the TCP protocol and how to interpret them from packet capture analysis.
+First, let's understand the various connection states in the TCP and how to interpret them from packet capture analysis.
 
 ![TCP connection status](/images/understand-the-connection-status-of-the-tcp-protocol/tcp-connection-status.jpg)
 
