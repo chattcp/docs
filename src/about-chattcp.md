@@ -1,6 +1,6 @@
 # About ChatTCP
 
-ChatTCP is an TCP analysis application dedicated to simplifying the analysis of TCP, making it as easy as reading chat logs!
+ChatTCP is a TCP analysis application dedicated to simplifying the analysis of TCP, making it as easy as reading chat logs!
 
 ChatTCP lowers the barrier for beginners to learn and master TCP analysis, and enhances the efficiency of TCP analysis.
 
