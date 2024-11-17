@@ -26,6 +26,15 @@ export default defineConfig({
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-HWE8YD659P');`
+        ],
+        [
+            'script',
+            {},
+            `gtag('event', 'conversion', {
+                'send_to': 'AW-11452226533/-4fiCLKYyuoZEOW37NQq',
+                'value': 1.0,
+                'currency': 'USD'
+            });`
         ]
     ],
     srcDir: './src',
