@@ -48,6 +48,10 @@ export const zhSidebar = [
         link: '/zh/understand-the-connection-status-of-the-tcp-protocol'
     },
     {
+        text: 'Mysql协议解码配置',
+        link: '/zh/mysql-protocol-decode-settings'
+    },
+    {
         text: "博客",
         items: [
             {

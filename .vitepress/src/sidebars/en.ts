@@ -48,6 +48,10 @@ export const sidebar = [
         link: '/understand-the-connection-status-of-the-tcp-protocol'
     },
     {
+        text: 'MySQL Protocol Decode Settings',
+        link: '/mysql-protocol-decode-settings'
+    },
+    {
         text: "Blog",
         items: [
             {
