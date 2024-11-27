@@ -4,6 +4,11 @@ ChatTCP is a TCP analysis application dedicated to simplifying the analysis of T
 
 ChatTCP lowers the barrier for beginners to learn and master TCP analysis, and enhances the efficiency of TCP analysis.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6R1jWgySuk0?si=OV04GyC6vXVGYBB7"
+title="YouTube video player" frameBorder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+
 If you are facing any of the following problems, ChatTCP is perfect for you:
 
 * Can't understand the three-way handshake and four-way handshake of the TCP?

@@ -4,6 +4,11 @@ ChatTCP是一款离线TCP分析APP，致力于简化TCP分析，让TCP分析变�
 
 ChatTCP降低了新手入门学习和掌握TCP分析的门槛，并提升了TCP分析的效率。
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6R1jWgySuk0?si=OV04GyC6vXVGYBB7"
+title="YouTube video player" frameBorder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+
 如果你也遇到以下这些问题，那么ChatTCP非常适合你：
 
 * 看不懂TCP协议的三次握手、四次挥手？
