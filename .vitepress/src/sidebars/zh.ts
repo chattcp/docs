@@ -61,6 +61,14 @@ export const zhSidebar = [
             {
                 text: 'ChatTCP与Easy TCP Analysis是什么关系？',
                 link: '/zh/what-is-the-relationship-between-chattcp-and-easy-tcp-analysis'
+            },
+            {
+                text: 'Easy TCP Analysis',
+                link: '/zh/easy-tcp-analysis'
+            },
+            {
+                text: 'ChatTCP for windows',
+                link: '/zh/chattcp-for-windows'
             }
         ]
     }

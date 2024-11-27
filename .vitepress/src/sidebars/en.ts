@@ -61,6 +61,14 @@ export const sidebar = [
             {
                 text: 'What is the relationship between ChatTCP and Easy TCP Analysis?',
                 link: '/what-is-the-relationship-between-chattcp-and-easy-tcp-analysis'
+            },
+            {
+                text: 'Easy TCP Analysis',
+                link: '/easy-tcp-analysis'
+            },
+            {
+                text: 'ChatTCP for windows',
+                link: '/chattcp-for-windows'
             }
         ]
     }
