@@ -57,18 +57,6 @@ export const zhSidebar = [
             {
                 text: "我为什么会想到做一款TCP数据包分析工具？",
                 link: 'https://juejin.cn/post/7410294994369544211'
-            },
-            {
-                text: 'ChatTCP与Easy TCP Analysis是什么关系？',
-                link: '/zh/what-is-the-relationship-between-chattcp-and-easy-tcp-analysis'
-            },
-            {
-                text: 'Easy TCP Analysis',
-                link: '/zh/easy-tcp-analysis'
-            },
-            {
-                text: 'ChatTCP for windows',
-                link: '/zh/chattcp-for-windows'
             }
         ]
     }
