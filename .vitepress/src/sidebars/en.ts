@@ -50,14 +50,5 @@ export const sidebar = [
     {
         text: 'MySQL Protocol Decode Settings',
         link: '/mysql-protocol-decode-settings'
-    },
-    {
-        text: "Blog",
-        items: [
-            {
-                text: "How I Came Up with the Idea to Develop ChatTCP, a TCP Analysis Tool APP",
-                link: 'https://medium.com/@wujiuye99/if-you-find-wireshark-challenging-then-give-chattcp-a-try-042f5755a7e4'
-            }
-        ]
     }
 ]

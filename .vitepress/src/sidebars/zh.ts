@@ -50,14 +50,5 @@ export const zhSidebar = [
     {
         text: 'Mysql协议解码配置',
         link: '/zh/mysql-protocol-decode-settings'
-    },
-    {
-        text: "博客",
-        items: [
-            {
-                text: "我为什么会想到做一款TCP数据包分析工具？",
-                link: 'https://juejin.cn/post/7410294994369544211'
-            }
-        ]
     }
 ]
