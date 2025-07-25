@@ -15,7 +15,7 @@ hero:
       link: /zh/about-chattcp
     - theme: alt
       text: 下载
-      link: https://apps.apple.com/cn/app/chattcp/id6560112653
+      link: https://chattcp.com/zh/download
       target: _blank
 
 features:
