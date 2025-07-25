@@ -46,7 +46,7 @@ export default defineConfig({
             themeConfig: {
                 nav: [
                     {text: 'Home', link: 'https://chattcp.com/en'},
-                    {text: 'Download', link: 'https://apps.apple.com/us/app/chattcp/id6560112653'}
+                    {text: 'Download', link: 'https://chattcp.com/en/download'}
                 ],
                 sidebar: sidebar
             }
@@ -57,7 +57,7 @@ export default defineConfig({
             themeConfig: {
                 nav: [
                     {text: '官网', link: 'https://chattcp.com/zh'},
-                    {text: '下载', link: 'https://apps.apple.com/cn/app/chattcp/id6560112653'}
+                    {text: '下载', link: 'https://chattcp.com/zh/download'}
                 ],
                 sidebar: zhSidebar
             }
