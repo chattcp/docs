@@ -50,5 +50,9 @@ export const sidebar = [
     {
         text: 'MySQL Protocol Decode Settings',
         link: '/mysql-protocol-decode-settings'
+    },
+    {
+        text: 'Custom Protocol Decoder (Beta)',
+        link: '/custom-protocol-decoder'
     }
 ]
