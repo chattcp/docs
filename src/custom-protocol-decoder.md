@@ -1,6 +1,6 @@
 # Custom Protocol Decoder
 
-Note: This feature is not yet supported in the current APP and is only available on the web version. It is currently in Beta, and its functionality may be unstable.
+This document applies to the web version and APP of ChatTCP, as well as TCP and UDP.
 
 ## Overview
 

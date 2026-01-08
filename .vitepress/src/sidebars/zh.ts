@@ -52,7 +52,7 @@ export const zhSidebar = [
         link: '/zh/mysql-protocol-decode-settings'
     },
     {
-        text: '自定义协议解码器 (Beta)',
+        text: '自定义协议解码器',
         link: '/zh/custom-protocol-decoder'
     }
 ]
