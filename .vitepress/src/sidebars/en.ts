@@ -54,5 +54,9 @@ export const sidebar = [
     {
         text: 'Custom Protocol Decoder',
         link: '/custom-protocol-decoder'
+    },
+    {
+        text: 'Remote Realtime Packet Capture & Analysis',
+        link: '/remote-realtime-capture-analysis'
     }
 ]

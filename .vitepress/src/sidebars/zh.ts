@@ -54,5 +54,9 @@ export const zhSidebar = [
     {
         text: '自定义协议解码器',
         link: '/zh/custom-protocol-decoder'
+    },
+    {
+        text: '远程实时抓包分析',
+        link: '/zh/remote-realtime-capture-analysis'
     }
 ]
