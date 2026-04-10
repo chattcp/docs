@@ -1,6 +1,6 @@
 # 关于ChatTCP
 
-ChatTCP是一款离线TCP分析APP，致力于简化TCP分析，让TCP分析变得跟看聊天记录一样简单！
+ChatTCP 是一款直观且易于使用的 PCAP 查看与分析器，致力于打破“认知负担”，让查看网络数据包就像看聊天记录一样简单！
 
 ChatTCP降低了新手入门学习和掌握TCP分析的门槛，并提升了TCP分析的效率。
 
@@ -21,6 +21,6 @@ referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
 * 不懂得怎么分析问题？
 * 记不住tcpdump命令？
 * 想提取http协议传输的文件？
-* 学习TCP协议自己抓包太麻烦找不到案例？
+* 学习TCP协议自己抓包太麻烦找不到示例？
 * ......
 

@@ -8,9 +8,9 @@ Before we start, we need to prepare a pcap (or pcapng) file, which is a packet c
 
 Open ChatTCP, click "Click to select a file" and choose a pcap file to open.
 
-![Click to select file](/images/tcp-analysis-using-chattcp/click-to-select-file.webp)
+![Click to select file](/images/tcp-analysis-using-chattcp/chattcp-app-main-window.webp)
 
-If you are currently learning and have not captured any packets yet, you can check out some classic cases provided by ChatTCP. You can read this document: [Classic Cases](/classic-case)
+If you are currently learning and have not captured any packets yet, you can check out some PCAP examples provided by ChatTCP. You can read this document: [PCAP Examples](/pcap-examples)
 
 ## Introduction to the Analysis Window
 

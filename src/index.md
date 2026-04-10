@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "ChatTCP docs"
-  tagline: Dedicated to simplifying the analysis of TCP, making it as easy as reading chat logs!
+  tagline: View network packets as easily as chats — Supporting TCP & UDP
   actions:
     - theme: brand
       text: Home
@@ -23,7 +23,7 @@ features:
     details: Automatically analyzes network latency, packet loss, and retransmission situations
   - title: Application Layer Protocol Decoding
     details: Supports decoding of common Application layer protocols and maps them to data structure displays
-  - title: Provides Classic Cases
-    details: Provides multiple classic cases for learning and mastering TCP as well as application layer protocols
+  - title: Provides PCAP Examples
+    details: Provides multiple PCAP examples for learning and mastering TCP as well as application layer protocols
 ---
 

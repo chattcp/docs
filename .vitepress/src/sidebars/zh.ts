@@ -12,16 +12,12 @@ export const zhSidebar = [
         link: "/zh/tcp-analysis-using-chattcp"
     },
     {
-        text: '使用ChatTCP生成tcpdump命令',
-        link: '/zh/generate-tcpdump-command-using-chattcp'
-    },
-    {
         text: "ChatTCP个性化配置",
         link: '/zh/about-settings.md'
     },
     {
-        text: 'TCP抓包分析经典案例',
-        link: '/zh/classic-case'
+        text: 'PCAP示例',
+        link: '/zh/pcap-examples'
     },
     {
         text: 'ChatTCP的高级搜索功能',

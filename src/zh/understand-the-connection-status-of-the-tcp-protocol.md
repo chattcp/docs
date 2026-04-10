@@ -4,7 +4,7 @@
 
 首先我们先来理解TCP协议有哪些连接状态，如何从抓包分析中理解。
 
-![TCP connection status](/images/understand-the-connection-status-of-the-tcp-protocol/tcp-connection-status.jpg)
+![TCP connection status](/images/understand-the-connection-status-of-the-tcp-protocol/tcp-connection-status.webp)
 
 * LISTEN（监听状态）：表示服务器正在监听传入的连接请求。当服务器准备好接受连接请求时，它会处于监听状态。
 

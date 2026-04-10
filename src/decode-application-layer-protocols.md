@@ -10,6 +10,6 @@ Certainly, it is also supported to decode the Payload of all incoming and outgoi
 
 ![Flow stream](/images/decode-application-layer-protocols/flow-stream-decode-app-layer-protocol.webp)
 
-For less common protocols, such as custom application layer protocols based on TCP used within enterprises, you can export the Payload as a binary file and decode it using your own protocol decoder. Typically, you will need to filter whether to export packets sent by the client or the server separately.
+For less common protocols, such as custom application layer protocols based on TCP used within enterprises, you can also use JavaScript to implement custom protocol decoders based on the plugin functionality provided by ChatTCP.
 
-Currently, ChatTCP only supports HTTP and WebSocket protocols, but it will gradually add more application layer protocols in the future, such as those used by middleware: Redis, Mysql.
+ChatTCP currently supports the following application layer protocols: HTTP, WebSocket, Redis, MySQL, and DNS.

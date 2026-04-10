@@ -4,7 +4,7 @@ In our work, we may encounter issues related to connection status, such as a ful
 
 First, let's understand the various connection states in the TCP and how to interpret them from packet capture analysis.
 
-![TCP connection status](/images/understand-the-connection-status-of-the-tcp-protocol/tcp-connection-status.jpg)
+![TCP connection status](/images/understand-the-connection-status-of-the-tcp-protocol/tcp-connection-status.webp)
 
 * LISTEN: Indicates that the server is listening for incoming connection requests. When the server is ready to accept connection requests, it is in the listening state.
 

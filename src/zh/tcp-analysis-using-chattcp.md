@@ -11,9 +11,9 @@
 
 打开ChatTCP，点击“点击选择一个文件开始”，选择一个pcap文件打开。
 
-![Click to select file](/images/tcp-analysis-using-chattcp/click-to-select-file.webp)
+![Click to select file](/images/tcp-analysis-using-chattcp/chattcp-app-main-window.webp)
 
-如果您目前是在学习，并且还未抓取数据包，可以查看ChatTCP提供的一些经典案例，您可阅读此文档：[经典案例](/zh/classic-case)
+如果您目前是在学习，并且还未抓取数据包，可以查看ChatTCP提供的一些PCAP示例，您可阅读此文档：[PCAP示例](/zh/pcap-examples)
 
 ## 分析窗口介绍
 
