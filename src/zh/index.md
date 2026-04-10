@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "ChatTCP 使用文档"
-  tagline: "让查看网络数据包，像看聊天记录一样简单 —— 支持 TCP & UDP"
+  name: ChatTCP 使用文档
+  tagline: ChatTCP 让查看网络数据包变得像阅读聊天记录一样简单！
   actions:
     - theme: brand
       text: 官网

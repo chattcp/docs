@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "ChatTCP docs"
-  tagline: View network packets as easily as chats — Supporting TCP & UDP
+  name: ChatTCP docs
+  tagline: ChatTCP makes viewing network packets as easy as reading chats!
   actions:
     - theme: brand
       text: Home
