@@ -38,9 +38,9 @@ Finally, the client actively sent a disconnection wave packet, the server receiv
 
 ### Example of the four packets in the TCP protocol's four-way handshake.
 
-This example includes three-way handshake, keep-alive, and four-way wave.
+This example includes three-way handshake, Keep-Alive, and four-way wave.
 
-The keep-alive is initiated by the server, which is a Go process, with a default timeout of 15 seconds. After 15 seconds without sending or receiving any packets, the server actively initiated a keep-alive, and the client replied with an ACK upon receiving the keep-alive.
+The Keep-Alive is initiated by the server, which is a Go process, with a default timeout of 15 seconds. After 15 seconds without sending or receiving any packets, the server actively initiated a Keep-Alive, and the client replied with an ACK upon receiving the Keep-Alive.
 
 The four-way wave corresponds to four packets, with the server initiating the connection closure (first wave). The client's second wave is an ACK reply to the server's first wave, and the third is the client sending a FIN to the server, indicating that it is also ready to close the connection. In this example, the client did not combine the second and third into one packet.
 
@@ -48,11 +48,11 @@ The four-way wave corresponds to four packets, with the server initiating the co
 
 The value of a certain request header transmitted by the client included a '\n', which caused the server framework to fail in parsing the request correctly. This is because, according to the HTTP, when parsing the request, any content following this '\n' is treated as the request body. However, the Content-Length did not match the length of the body, resulting in an erroneous request. Consequently, the server framework actively disconnected the connection.
 
-### Analyzing TCP packet captures to solve the issue of the HTTP event stream being stuck until the last message is returned all at once.
+### Analyzing TCP packet captures to solve the issue of the HTTP Event Stream being stuck until the last message is returned all at once.
 
 HTTP Event Stream is used to achieve a typewriter-like effect similar to that of GPT.
 
-In this example, although it uses the HTTP, capturing packets with Charles may not reveal that the event stream is indeed returned in multiple data packets; instead, it may only show the final, complete HTTP response.
+In this example, although it uses the HTTP, capturing packets with Charles may not reveal that the Event Stream is indeed returned in multiple data packets; instead, it may only show the final, complete HTTP response.
 
 Through TCP packet capture and analysis, it was found that each event is responded to in a separate TCP packet. However, from the frontend perspective, there was a significant delay before the content was displayed all at once, failing to achieve the typing effect.
 

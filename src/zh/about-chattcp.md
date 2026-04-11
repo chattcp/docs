@@ -15,12 +15,12 @@ referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
 * 记不住TCP协议的每个标志位是什么意思？
 * 记不住TCP协议的数据结构？
 * 不理解ack和seq？
-* 记不清wireshark的过滤条件？
+* 记不清Wireshark的过滤条件？
 * 看不懂或不理解TCP协议的连接状态？
-* 记不住websocket等应用层协议的数据结构？
+* 记不住WebSocket等应用层协议的数据结构？
 * 不懂得怎么分析问题？
 * 记不住tcpdump命令？
-* 想提取http协议传输的文件？
+* 想提取HTTP协议传输的文件？
 * 学习TCP协议自己抓包太麻烦找不到示例？
 * ......
 

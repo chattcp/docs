@@ -28,7 +28,7 @@ export const zhSidebar = [
         link: '/zh/decode-application-layer-protocols'
     },
     {
-        text: '导出http协议传输的文件',
+        text: '导出HTTP协议传输的文件',
         link: '/zh/extract-http-protocol-files'
     },
     {

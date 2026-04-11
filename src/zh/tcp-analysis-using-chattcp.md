@@ -2,14 +2,14 @@
 
 您已经下载ChatTCP了吗？如果还没下载，可以点击此链接去下载：[chattcp.com](https://chattcp.com)
 
-在开始之前，我们需要先准备一个pcap（或pcapng）文件，也就是抓包文件。
+在开始之前，我们需要先准备一个PCAP（或PCAPNG）文件，也就是抓包文件。
 如果您忘记tcpdump命令如何写，ChatTCP提供了一个小工具：[TCPDump 命令助手 | ChatTCP](https://chattcp.com/zh/tcpdump-helper)
 
 > PS：您看到的所有图片都是英文版的截图，ChatTCP支持中文，当您的系统使用中文时，ChatTCP就会使用中文。
 
 ## 选择一个文件打开
 
-打开ChatTCP，点击“点击选择一个文件开始”，选择一个pcap文件打开。
+打开ChatTCP，点击“点击选择一个文件开始”，选择一个PCAP文件打开。
 
 ![Click to select file](/images/tcp-analysis-using-chattcp/chattcp-app-main-window.webp)
 
@@ -62,7 +62,7 @@
 
 ChatTCP会自动识别数据包Payload使用的应用层协议并解码，如果解码成功，那么Chat会以应用层协议数据结构显示。
 
-![Chat payload decode as websocket](/images/tcp-analysis-using-chattcp/chat-payload-websocket.webp)
+![Chat payload decode as WebSocket](/images/tcp-analysis-using-chattcp/chat-payload-websocket.webp)
 
 ### 右侧工作区
 

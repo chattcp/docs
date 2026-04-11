@@ -1,6 +1,6 @@
 # Configuring to Use Relative Sequence Numbers
 
-Users who have used Wireshark may wonder why the sequence numbers displayed by ChatTCP and Wireshark are different for the same pcap file.
+Users who have used Wireshark may wonder why the sequence numbers displayed by ChatTCP and Wireshark are different for the same PCAP file.
 
 This is because Wireshark displays relative sequence numbers, while ChatTCP defaults to displaying the actual sequence numbers decoded from the packets.
 

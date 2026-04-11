@@ -2,11 +2,11 @@
 
 Have you downloaded ChatTCP? If not, you can click this link to download it: [chattcp.com](https://chattcp.com)
 
-Before we start, we need to prepare a pcap (or pcapng) file, which is a packet capture file. If you forget how to write the tcpdump command, ChatTCP provides a small utility: [TCPDump Command Helper | ChatTCP](https://chattcp.com/en/tcpdump-helper)
+Before we start, we need to prepare a PCAP (or PCAPNG) file, which is a packet capture file. If you forget how to write the tcpdump command, ChatTCP provides a small utility: [TCPDump Command Helper | ChatTCP](https://chattcp.com/en/tcpdump-helper)
 
 ## Select a File to Open
 
-Open ChatTCP, click "Click to select a file" and choose a pcap file to open.
+Open ChatTCP, click "Click to select a file" and choose a PCAP file to open.
 
 ![Click to select file](/images/tcp-analysis-using-chattcp/chattcp-app-main-window.webp)
 
@@ -59,7 +59,7 @@ When we click outside the pop-up view, the pop-up will disappear.
 
 ChatTCP will automatically recognize the application layer protocol used by the packet's Payload and decode it. If the decoding is successful, the Chat will display the data structure of the application layer protocol.
 
-![Chat payload decode as websocket](/images/tcp-analysis-using-chattcp/chat-payload-websocket.webp)
+![Chat payload decode as WebSocket](/images/tcp-analysis-using-chattcp/chat-payload-websocket.webp)
 
 ### Right Workspace
 
