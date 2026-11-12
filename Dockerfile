@@ -12,5 +12,5 @@ RUN sed -i 's/worker_processes .*/worker_processes 1;/' /etc/nginx/nginx.conf \
     && rm /etc/nginx/conf.d/default.conf
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=builder /app/.vitepress/dist /usr/share/nginx/html
-EXPOSE 80
+EXPOSE 4173
 CMD ["nginx", "-g", "daemon off;"]
