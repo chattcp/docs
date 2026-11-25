@@ -54,5 +54,9 @@ export const sidebar = [
     {
         text: 'Remote Realtime Packet Capture & Analysis',
         link: '/remote-realtime-capture-analysis'
+    },
+    {
+        text: 'MCP',
+        link: '/mcp'
     }
 ]
