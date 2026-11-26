@@ -10,6 +10,8 @@ The PCAP stays on this computer. It is not uploaded. Local MCP analyzes TCP only
 
 Download [ChatTCP](https://chattcp.com/download) and open the app. The default port is 17380. Click MCP on the left of the home page to see the port and change it to a free port. The panel copies the AI client configuration and shows whether MCP is listening. If the port is already in use, the error is shown there.
 
+![Local MCP | ChatTCP](/images/mcp/chattcp-app-local-mcp.webp)
+
 ChatTCP must keep running in the background. When the app process exits, local MCP stops. If you change the port, the configuration must use the same port.
 
 Open [Local MCP (App)](https://chattcp.com/mcp?tab=local) to copy the configuration for the default port. In Cursor, paste it into `~/.cursor/mcp.json`. In another client that supports MCP, add it to that client's MCP configuration.

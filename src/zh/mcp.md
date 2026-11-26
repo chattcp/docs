@@ -10,6 +10,8 @@ PCAP 留在你这台电脑上，不会上传。本地 MCP 只分析 TCP，不支
 
 先下载 [ChatTCP](https://chattcp.com/zh/download)，打开 App。默认端口是 17380。点首页左侧的 MCP，可以看到端口，也可以改成没被占用的端口。面板里能复制 AI 客户端的配置，也能看到是否正在监听。端口被占用时，这里会显示错误。
 
+![Local MCP | ChatTCP](/images/mcp/chattcp-app-local-mcp.webp)
+
 ChatTCP 必须保持在后台运行。App 进程一退出，本地 MCP 就停了。如果改了端口，配置里的端口要和首页上的一致。
 
 打开 [本地 MCP (APP)](https://chattcp.com/zh/mcp?tab=local) 可以复制默认端口的配置。Cursor 把这段贴进 `~/.cursor/mcp.json`。别的支持 MCP 的客户端，加到它自己的 MCP 配置里。
