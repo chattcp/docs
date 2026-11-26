@@ -54,5 +54,9 @@ export const zhSidebar = [
     {
         text: '远程实时抓包分析',
         link: '/zh/remote-realtime-capture-analysis'
+    },
+    {
+        text: 'MCP',
+        link: '/zh/mcp'
     }
 ]
